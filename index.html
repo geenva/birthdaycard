@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-Hi! Happy birthday (name)!
+        <link rel="stylesheet" href="css/index.css">
+        <title>happy birthday</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/740930314121117716/757807152466493551/favigoose.png">
+        <meta name="theme-color" content="#000">
+        <meta property="og:site_name" content="happy birthday" />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/740930314121117716/757807152466493551/favigoose.png">
+        <meta property="og:title" content="happy birthday" />
+        <meta name="description" content="happy birthday">
+        <meta property="og:description" content="happy birthday" />
     </head>
+    <main>
+	<h3 class="typed"></h3>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
 
-    <body>
-        (did hou expect this to be amazing smh) <br>
-        Happy birthday to (name), <br>
-        Happy birthday to (name). <br>
-        Happy birthday, Happy birthday, <br>
-        Happy birthday to (name). <br>
-        (this is shit)
-    </body>
-</html>
+    var typed = new Typed('.typed', {
+        strings: [
+			"Happy birthday!",
+			"Have a great day!",
+		       ],
+        typeSpeed: 80,
+        backSpeed: 70,
+        loop: true,
+        backDelay: 3000,
+        contentType: 'html'
+    });
+</script>
+    </html>

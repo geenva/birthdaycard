@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.typed-cursor{
+    opacity: 0;
+    display: none;
+}
+
+h3 {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Questrial, sans-serif;
+    color: lightgreen;
+}
+
+html {
+    background-image: url(https://i.gifer.com/94uQ.gif);
+}
