@@ -16,21 +16,77 @@
     <main>
     <h3 class="typed"></h3>
     <body onclick='window.location.href="./love"'>
-	</main>
+    </main>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
 
     var typed = new Typed('.typed', {
         strings: [
-            "wishes here",
-            "wishes here 2"
+            "We hope you have a great day...",
+            "a long life...",
+            "always pretty...",
+            "healthy...",
+            "and most importantly,",
+            "lovely."
         		       ],
         typeSpeed: 80,
         backSpeed: 70,
         loop: true,
-        backDelay: 3000,
+        backDelay: 200,
         contentType: 'html'
     });
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+    crossorigin="anonymous">
+
+</script>
+
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+$(document)
+
+.mousemove(function(e) {
+
+$('.cursor')
+
+.eq(0)
+
+.css({
+
+  left: e.clientX,
+
+  top: e.clientY
+
+});
+
+setTimeout(function() {
+
+$('.cursor')
+
+  .eq(1)
+
+  .css({
+
+    left: e.clientX,
+
+    top: e.clientY
+
+  });
+
+}, 100);
+
+})
+
+</script>
+
     </html>
