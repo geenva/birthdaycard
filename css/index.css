@@ -15,10 +15,8 @@ h3 {
     color: lightgreen;
 }
 
-body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+html {
+	background-image: url(https://i.gifer.com/94uQ.gif);
 	cursor: none;
 }
 
