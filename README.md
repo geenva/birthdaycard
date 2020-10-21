@@ -34,7 +34,8 @@ Fork this repository. Edit the <em>(person)</em> part in `index.html` to your in
 <br>
 Lastly, edit `love.html`. Replace the name `Marcus` with your name.
 <br><br>
-NOW THIS IS THE IMPORTANT PART. Go to the Settings part of your repository, scroll down to the GitHub Pages section, and for source, <b>SELECT MASTER</b>. <br><br>Click Save. Don't choose anything for themes - leave it there. <br><br>You should see something like ` Your site is published at url.` That's it. Wait for a few minutes, and click on the link. You should see it deployed there. Enjoy!
+NOW THIS IS THE IMPORTANT PART. Go to the Settings part of your repository, scroll down to the GitHub Pages section, and for source, <b>SELECT MASTER</b>. <br><br>Click Save. Don't choose anything for themes - leave it there. <br><br> You should see something like 
+"Your site is published at site." That's it. Wait for a few minutes, and click on the link. You should see it deployed there. Enjoy!
 
 ### To Do
 
