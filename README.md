@@ -5,6 +5,35 @@ Thanks to [Vixen](https://github.com/Vxxen) for the help with typed.js.
 
 [Take a look at the demo here](https://birthdaycard.marcuscodes.me)
 
+## How do I use this?
+Fork this repository. Edit the <em>(person)</em> part in `index.html` to your intended audience. Next, edit `wishes.html`, and edit this from:
+```
+    var typed = new Typed('.typed', {
+        strings: [
+            "We hope you have a great day...",
+            "a long life...",
+            "always pretty...",
+            "healthy...",
+            "happy...",
+            "and most importantly,",
+            "lovely."
+        		       ],
+
+```
+<br>
+...to something like this.
+```
+    var typed = new Typed('.typed', {
+        strings: [
+    "You're a nice person.",
+    "You are wonderful."
+        ],
+```
+<br>
+Lastly, edit `love.html`. Replace the name `Marcus` with your name.
+>br>
+NOW THIS IS THE IMPORTANT PART. Go to the [/settings](Settings) part of your repository, scroll down to the GitHub Pages section, and for source, <b>SELECT MASTER</b>. Click Save. Don't choose anything for themes - leave it there. You should see something like ` Your site is published at https://<username>.github.io/birthdaycard`. That's it. Wait for a few minutes, and click on the link. You should see it deployed there. Enjoy!<br>
+
 To Do
 
 * [ ] Allow input via URL to state the person who this is sent to (e.g. https://geenva.github.io/birthdaycard/?name=John/)
